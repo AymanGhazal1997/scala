@@ -1,8 +1,5 @@
 object MowItNow extends App {
-
-    main()
-    println("Hiiiiiii")
-
+  main()
 
   private def main(): Unit = {
     val inputStream = getClass.getResourceAsStream("/input.txt")
@@ -19,11 +16,7 @@ object MowItNow extends App {
       println(s"Tondeuse ${index + 1} : ${mower.toString()}")
     }
   }
-
-  // Main method to run the code
 }
-
-
 
 
 /**
